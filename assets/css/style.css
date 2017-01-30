@@ -3,9 +3,8 @@ body {
   font-size: 18px;
   color: #777;
   line-height: 34px;
-  background: url("../images/concrete_seamless.png");
+  background-color: brown;
 }
-
 * {
   box-sizing: border-box;
 }
@@ -119,8 +118,7 @@ footer {
 
 .sidebar {
   padding: 30px;
-  width: 100%;
-  max-width: 270px;
+  width: 270px;
   float: right;
   margin-bottom: 20px;
   background: #fff;
@@ -151,13 +149,13 @@ h3,
 
 #main-container {
   padding-top: 130px;
+  max-width:980px;
 }
 
 .main-section {
   padding: 30px;
   margin: 0 0 40px 0;
   width: 100%;
-  max-width: 650px;
   float: left;
   background: #fff;
   border: 1px solid #ddd;
@@ -245,4 +243,66 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+/*@media screen and (max-width:980px) {
+.mainbio {
+ width: 100%;
+ margin-top:40px;
+}
+.sidebar{
+width: 100%;
+ margin-top:40px;
+}*/
+
+
+/*@media screen and (max-width:768px) {
+
+}*/
+
+  
+  /*.container{
+    background-color: green;
+    color:green;
+    width: 640px;
+    /*margin-top: 50px;*/
+
+
+@media screen and (max-width:640px) {
+  
+  .sidebar {
+    /*align-self: center;*/
+    width:640px;
+}
+img {
+  width: 640px;
+  height:640px;
+}
+nav{
+  width: 640px;
+  text-align: center;
+}
+.main-container {
+  width:640px;
+}
+
+#connect {
+  float: left;
+  padding-right: 100px;
+}
+#logo {
+  width: 640px;
+}}
+
+@media screen and (max-width: 768px){
+  .sidebar {
+    /*align-self: center;*/
+    width:100%;
+    /*margin-right: 30px;*/
+    /*margin-left: 30px;*/
+    clear:both; 
+    align-self: center;
+    border-right: 30px
+    border-left:30px;
+}
 }
