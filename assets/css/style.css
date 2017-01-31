@@ -16,7 +16,7 @@ body {
   clear: both;
   margin: 0 auto;
   width: 100%;
-  max-width: 960px;
+  max-width: 980px;
 }
 
 h1,
@@ -119,6 +119,7 @@ footer {
 .sidebar {
   padding: 30px;
   width: 270px;
+  max-width: 980px;
   float: right;
   margin-bottom: 20px;
   background: #fff;
@@ -245,49 +246,28 @@ input[type=submit] {
   border: 0 none;
 }
 
-/*@media screen and (max-width:980px) {
-.mainbio {
- width: 100%;
- margin-top:40px;
-}
-.sidebar{
-width: 100%;
- margin-top:40px;
-}*/
-
-
-/*@media screen and (max-width:768px) {
-
-}*/
-
-  
-  /*.container{
-    background-color: green;
-    color:green;
-    width: 640px;
-    /*margin-top: 50px;*/
-
-
 @media screen and (max-width:640px) {
   
-  .sidebar {
-    /*align-self: center;*/
-    width:640px;
+/*  .sidebar {
+    
+    width:580px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
-img {
-  width: 640px;
-  height:640px;
-}
+*/
+
 nav{
   width: 640px;
   text-align: center;
 }
-.main-container {
-  width:640px;
+#main-container {
+  width:580px;
+  margin-right: 30px;
+  margin-left: 30px;
+  clear:both;
 }
 
 #connect {
-  float: left;
   padding-right: 100px;
 }
 #logo {
@@ -295,14 +275,12 @@ nav{
 }}
 
 @media screen and (max-width: 768px){
-  .sidebar {
-    /*align-self: center;*/
-    width:100%;
-    /*margin-right: 30px;*/
-    /*margin-left: 30px;*/
-    clear:both; 
-    align-self: center;
-    border-right: 30px
-    border-left:30px;
-}
+
+ .container, #main-container {
+    width:708px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    }
+
 }
