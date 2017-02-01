@@ -93,6 +93,7 @@ nav a {
   text-decoration: none;
   line-height: 18px;
   border-left: 1px solid #efefef;
+  
 }
 
 nav a:first-child {
@@ -118,7 +119,7 @@ footer {
 
 .sidebar {
   padding: 30px;
-  width: 270px;
+  width: 30%;
   max-width: 980px;
   float: right;
   margin-bottom: 20px;
@@ -156,7 +157,7 @@ h3,
 .main-section {
   padding: 30px;
   margin: 0 0 40px 0;
-  width: 100%;
+  width: 50%;
   float: left;
   background: #fff;
   border: 1px solid #ddd;
@@ -246,41 +247,173 @@ input[type=submit] {
   border: 0 none;
 }
 
+
+/*Index*/
 @media screen and (max-width:640px) {
   
-/*  .sidebar {
-    
-    width:580px;
-    margin-right: 30px;
-    margin-left: 30px;
-}
-*/
 
 nav{
   width: 640px;
   text-align: center;
 }
-#main-container {
-  width:580px;
+
+
+.main-section {
+  width:80%;
   margin-right: 30px;
   margin-left: 30px;
   clear:both;
 }
 
-#connect {
-  padding-right: 100px;
+.sidebar {
+  width:80%;
+  float: left;
 }
+
+
 #logo {
-  width: 640px;
+  width: 100%;
 }}
 
+/*Index */
 @media screen and (max-width: 768px){
 
- .container, #main-container {
-    width:708px;
-    margin-left: 30px;
+ 
+.sidebar{
+    width:80%;
     margin-right: 30px;
+    margin-left: 30px;
+    float:left;
+}
 
-    }
+.main-section{
+  width:80%;
+  margin-left:30px;
+  margin-right: 30px;
+}
 
+}
+
+/*Index 980px*/
+@media  and (max-width: 980px)  {
+ .sidebar{
+    width:80%;
+    margin-right: 30px;
+    margin-left: 30px;
+    float:left;
+}
+
+.main-section{
+  width:80%;
+  margin-left:30px;
+  margin-right: 30px;
+}
+nav {
+  width:100%;
+  text-align: center;
+} 
+}
+
+/*Contact*/
+@media screen and (max-width:640px) {
+  
+.main-section {
+  width:80%;
+  margin-right: 30px;
+  margin-left: 30px;
+  clear:both;
+  margin-top: 30px;
+}
+
+.sidebar {
+  width:80%;
+  float: left;
+  display: initial;
+  margin-left: 30px;
+}
+#logo{
+  display:none;
+
+}
+
+}}
+
+/*contact */
+@media screen and (max-width: 768px) {
+
+.main-section {
+    
+    margin-left: 30px;
+
+}
+.sidebar {
+
+ 
+}
+#logo {
+
+  margin-left: 30px;
+}
+}
+
+@media screen and (max-width: 980px) {
+  .main-section {
+    margin-left: 100px
+  }
+  #logo {
+    margin-left: 100px;
+  }
+ 
+.sidebar {
+  margin-left: 40px
+}
+}
+
+
+/*Portfolio*/
+
+@media screen and (max-width: 640px) {
+  .main-section {
+    margin-left: 30px
+  }
+  #logo {
+    margin-left: 30px;
+width:85%;
+
+  }
+ 
+.sidebar {
+  margin-left: 30px;
+  width:85%;
+}
+}
+/*Portfolio*/
+@media screen and (max-width: 768px) {
+  .main-section {
+    margin-left: 30px;
+    width:85%;
+  }
+  #logo {
+    margin-left: 30px;
+  /*width:100%;*/
+  }
+ 
+.sidebar {
+  margin-left: 30px
+}
+}
+/*Portfolio*/
+@media screen and (max-width: 980px) {
+  .main-section {
+    margin-left: 30px;
+    width:40%;
+  }
+  #logo {
+    margin-left: 30px;
+  }
+ 
+.sidebar {
+  margin-left: 10px;
+  width:30%;
+}
 }
